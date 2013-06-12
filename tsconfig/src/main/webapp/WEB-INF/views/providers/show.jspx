@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Provider" object="${provider}" path="/providers" z="teSrwMX9xClqbO4AZH20TjrZVIQ=">
+        <field:display field="description" id="s_com_elsevier_tsconfig_domain_Provider_description" object="${provider}" z="da/q9+XufW8az4dcp8Pb3a9yDzQ="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Provider_lastmodifieduser" object="${provider}" z="cOWSo6RPWmRNxp0e3UpIL9la6sM="/>
+        <field:display calendar="true" dateTimePattern="${provider_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Provider_lastmodifieddate" object="${provider}" z="rydTBe7oDnFrazY77TbXb27j5iw="/>
+        <field:display calendar="true" dateTimePattern="${provider_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Provider_createddate" object="${provider}" z="i0edPZy3pWvLeEJgqdLtEAD2Pec="/>
+    </page:show>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_elsevier_tsconfig_domain_Providercataloglkpref" modelAttribute="providercataloglkpref" path="/providercataloglkprefs" render="${empty dependencies}" z="UdWzpsrQ4iK1Va77y44oRI+M7kk=">
+        <field:simple field="providerconcepts" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providerconcepts" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerconcept" z="ahTlW8nuaCrViS8FQEu+Ohdw6tM="/>
+        <field:simple field="providerlistitemfacets" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providerlistitemfacets" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerlistitemfacet" z="ROyCJPQ2ZDlssFa4wn44WM3lqkY="/>
+        <field:simple field="providermasterlistitems" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providermasterlistitems" messageCode="entity_reference_not_managed" messageCodeAttribute="Providermasterlistitem" z="a3QR+f2by+l8JnnECszxrnimpgQ="/>
+        <field:simple field="providerobjects" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providerobjects" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerobject" z="RjF4l22Nvagf35MNGbM0np7Na48="/>
+        <field:simple field="providerobjects1" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providerobjects1" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerobject" z="7mHvBDTEQLINEzRvt19SHNouzxo="/>
+        <field:simple field="providerobjectfacets" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providerobjectfacets" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerobjectfacet" z="FfGayfWWgnbOUqQfJEWhlDrGD2c="/>
+        <field:simple field="providerrelations" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_providerrelations" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerrelation" z="AWnc8ID9SLnIcZSq0VDF2/nylw0="/>
+        <field:input field="description" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_description" z="HdO7UVKJQoEqeK5oLmb4VWftDHs="/>
+        <field:input field="reftype" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_reftype" z="XRQcsRLrEMHKNTLzsBBKEVROlkw="/>
+        <field:input field="lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_lastmodifieduser" z="lfa7KMG1E27tIeF6ajUGAqLibhY="/>
+        <field:datetime dateTimePattern="${providercataloglkpref_lastmodifieddate_date_format}" field="lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_lastmodifieddate" z="5ZplZ78+4SLA4bT3LCVLPOw6IEg="/>
+        <field:datetime dateTimePattern="${providercataloglkpref_createddate_date_format}" field="createddate" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_createddate" z="tE2G62oz1FBqBMoGas8GgxUe7G4="/>
+        <field:input field="note" id="c_com_elsevier_tsconfig_domain_Providercataloglkpref_note" z="vVeLlX+nIaT3rpmEsDuYdTx7vog="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_elsevier_tsconfig_domain_Providercataloglkpref" render="${not empty dependencies}" z="MrPMlrDK9E2GnC+HvQBIiULUC5M="/>
+</div>

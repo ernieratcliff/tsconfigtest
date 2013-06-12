@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Providerrelation" items="${providerrelations}" z="UrtAGnXteyTQhkAlLYYfyDmO1GI=">
+        <table:table data="${providerrelations}" id="l_com_elsevier_tsconfig_domain_Providerrelation" path="/providerrelations" typeIdFieldName="objectid" z="usvZSpeUv51KqdWt6fLLpsxYx1E=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerrelation_providerobject2" property="providerobject2" z="IEvo7e98lQ9L0eotLX2elelNxwQ="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerrelation_relationtypeid" property="relationtypeid" z="WMr/aD3J0PqmsEaAF3n3BOYRs0A="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerrelation_sourceid" property="sourceid" z="NDHv4c1q+OTiLZhsRLvuRTygjUY="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerrelation_targetid" property="targetid" z="1XIE/fUk4vO0eRzcz8quraStpzY="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerrelation_lastmodifieduser" property="lastmodifieduser" z="NxqV+ji5AUWdMOMuwnlQBuuL4MQ="/>
+            <table:column calendar="true" dateTimePattern="${providerrelation_lastmodifieddate_date_format}" id="c_com_elsevier_tsconfig_domain_Providerrelation_lastmodifieddate" property="lastmodifieddate" z="Q6c/8bTVhNrok/8i136MByfwc6o="/>
+        </table:table>
+    </page:list>
+</div>

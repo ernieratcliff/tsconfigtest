@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_ProviderconceptEtl" object="${providerconceptetl}" path="/providerconceptetls" z="cvEwBWsIOhEmUuTxOZSjwasLmxo=">
+        <field:display field="typeid" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_typeid" object="${providerconceptetl}" z="v3AeWKI7SSRDj2nH6wCrSE9f+No="/>
+        <field:display field="providerid" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_providerid" object="${providerconceptetl}" z="cd18YyxxM31JWxkB4GIS95ta+sQ="/>
+        <field:display field="concept" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_concept" object="${providerconceptetl}" z="UbrUEOFygvXdYARHwVyoGnwPymk="/>
+        <field:display field="conceptdesc" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_conceptdesc" object="${providerconceptetl}" z="UsaVbSKMSjYyv3ASPIKsSi1hidU="/>
+        <field:display field="concepttype" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_concepttype" object="${providerconceptetl}" z="R5/kWhuCNcY1m0ui1ZbzFaUEt/0="/>
+        <field:display field="concepttypeid" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_concepttypeid" object="${providerconceptetl}" z="ORnruqxykg7vUpjLZiObVQIeCNY="/>
+        <field:display field="parentconcept" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_parentconcept" object="${providerconceptetl}" z="pJc9iOg1VQ4yAw4FDo2I7lymVU0="/>
+        <field:display field="mappingstatus" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_mappingstatus" object="${providerconceptetl}" z="m+obOT2saBDKps9dc5t++yLRKPo="/>
+        <field:display field="providercatalogkey" id="s_com_elsevier_tsconfig_domain_ProviderconceptEtl_providercatalogkey" object="${providerconceptetl}" z="WNUwoF65Q8RN3foM5lbECBW+qQU="/>
+    </page:show>
+</div>

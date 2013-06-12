@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providerconcept" object="${providerconcept}" path="/providerconcepts" z="4O8ok87+KTHlqrK3Baunbbed624=">
+        <field:display field="providerobject" id="s_com_elsevier_tsconfig_domain_Providerconcept_providerobject" object="${providerconcept}" z="ZBhnYnZT/5wxzNHhf1zL3/0iFMg="/>
+        <field:display field="typeid" id="s_com_elsevier_tsconfig_domain_Providerconcept_typeid" object="${providerconcept}" z="cj0PJbNk/COLdAvl+ReZKCCSlQk="/>
+        <field:display field="name" id="s_com_elsevier_tsconfig_domain_Providerconcept_name" object="${providerconcept}" z="swgWNauw0uy59KBW7UttzYUird4="/>
+        <field:display field="mastertermguid" id="s_com_elsevier_tsconfig_domain_Providerconcept_mastertermguid" object="${providerconcept}" z="sPxMHIx9VSFGYeokLK/aWZZ1ags="/>
+        <field:display field="providercatalogkey" id="s_com_elsevier_tsconfig_domain_Providerconcept_providercatalogkey" object="${providerconcept}" z="6j39oH89WtWGYy9pSthESq5Ozk0="/>
+        <field:display field="description" id="s_com_elsevier_tsconfig_domain_Providerconcept_description" object="${providerconcept}" z="ffelQ77QAqwVSWqpEnykSf7vJrE="/>
+        <field:display field="retired" id="s_com_elsevier_tsconfig_domain_Providerconcept_retired" object="${providerconcept}" z="rKE++8kE3m3PuFh4kyfQ024Rep0="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providerconcept_lastmodifieduser" object="${providerconcept}" z="EeQ7ZFcwXSHFY6ThT2KqKWq7f58="/>
+        <field:display calendar="true" dateTimePattern="${providerconcept_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providerconcept_lastmodifieddate" object="${providerconcept}" z="2SwqG8C/SYFHDpPu1GcA+qLXPKE="/>
+        <field:display calendar="true" dateTimePattern="${providerconcept_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Providerconcept_createddate" object="${providerconcept}" z="WL8UyDYUCcRcqj0ndgeuBQaas20="/>
+        <field:display field="masterparentconceptguid" id="s_com_elsevier_tsconfig_domain_Providerconcept_masterparentconceptguid" object="${providerconcept}" z="q/YAbjimG+0WSOZ4k+S6h5VSQEk="/>
+        <field:display field="masterconcepttypeguid" id="s_com_elsevier_tsconfig_domain_Providerconcept_masterconcepttypeguid" object="${providerconcept}" z="wQm4epBShR2L3aqjqPnqEVitpSU="/>
+        <field:display field="mappingcomment" id="s_com_elsevier_tsconfig_domain_Providerconcept_mappingcomment" object="${providerconcept}" z="LFyBxAi24bAJymq6k6kd4SfBCcQ="/>
+        <field:display field="providerid" id="s_com_elsevier_tsconfig_domain_Providerconcept_providerid" object="${providerconcept}" z="AUxByM+d/YgYjdgFoFsKoU367ws="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Providerlistitemfacet" items="${providerlistitemfacets}" z="hpXwf7Fnuqjv3hhqN7I1NMId5lE=">
+        <table:table data="${providerlistitemfacets}" id="l_com_elsevier_tsconfig_domain_Providerlistitemfacet" path="/providerlistitemfacets" z="zMCOsIIII9WGAmqE7AwQIyw7oFs=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerlistitemfacet_facetdefinitionid" property="facetdefinitionid" z="sARekLFh0LUBcVcYmaFwO4H5XgY="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerlistitemfacet_providerlistitemid" property="providerlistitemid" z="sH1eQiWsE8RX6WDvIGix9VVjqMQ="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerlistitemfacet_value" property="value" z="j1X14CmAOgV8ThHaTqL6/t5lFrY="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerlistitemfacet_isdefault" property="isdefault" z="GIrUffDpuqlidlhsiBXM46yp8Po="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerlistitemfacet_lastmodifieduser" property="lastmodifieduser" z="+rbCSnaYHnPWmkRm0wmDsFHy+u4="/>
+            <table:column calendar="true" dateTimePattern="${providerlistitemfacet_lastmodifieddate_date_format}" id="c_com_elsevier_tsconfig_domain_Providerlistitemfacet_lastmodifieddate" property="lastmodifieddate" z="8XrJ6AQcn3uf9oD6w1SLgQJWnxw="/>
+        </table:table>
+    </page:list>
+</div>

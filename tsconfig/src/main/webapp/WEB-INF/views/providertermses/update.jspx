@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_elsevier_tsconfig_domain_Providerterms" idField="termid" modelAttribute="providerterms" path="/providertermses" versionField="none" z="RE1HHKw0R1JulyV6Z+tskoAnzgU=">
+        <field:select field="conceptid" id="c_com_elsevier_tsconfig_domain_Providerterms_conceptid" itemValue="objectid" items="${providerconcepts}" path="/providerconcepts" z="WphfySNQKR7+xULMl8/lnIw57Kw="/>
+        <field:input field="isdefault" id="c_com_elsevier_tsconfig_domain_Providerterms_isdefault" required="true" validationMessageCode="field_invalid_number" z="P9FZS0TQfmkT+2UO8U8Lck4RZcY="/>
+        <field:input field="value" id="c_com_elsevier_tsconfig_domain_Providerterms_value" required="true" z="IPDn+L5Ae2Lgyw5qUOW2uGrJoFY="/>
+    </form:update>
+</div>

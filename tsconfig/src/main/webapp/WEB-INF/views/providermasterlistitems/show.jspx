@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providermasterlistitem" object="${providermasterlistitem}" path="/providermasterlistitems" z="S2aBQC1OGGUD2K3j1UmlkJzWrIQ=">
+        <field:display field="itemtype" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_itemtype" object="${providermasterlistitem}" z="wIXZM5Cz2+t+EWJtkTPzZu72rjY="/>
+        <field:display field="providerobjectid" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_providerobjectid" object="${providermasterlistitem}" z="A0QiAY9Un7CMGa6A3yjyhPPg3Uo="/>
+        <field:display field="providerid" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_providerid" object="${providermasterlistitem}" z="bTOG92nbCljQ/B90NnaNALB2KE0="/>
+        <field:display field="masterlistconceptguid" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_masterlistconceptguid" object="${providermasterlistitem}" z="AtOtRYotQPff8EmKFjeeOlokdog="/>
+        <field:display field="masteritemconceptguid" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_masteritemconceptguid" object="${providermasterlistitem}" z="AF2VJ901GvQ7lyE6y+u4aoaAm5Y="/>
+        <field:display field="sequence" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_sequence" object="${providermasterlistitem}" z="llgY3fV6lfDJv0ZhnpNs5ue+5uo="/>
+        <field:display field="iteminuse" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_iteminuse" object="${providermasterlistitem}" z="WfzQHawCmODNkyGq/UqtktsG88g="/>
+        <field:display field="note" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_note" object="${providermasterlistitem}" z="2KY48ukniGP254WVKNNt5FX5OVE="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_lastmodifieduser" object="${providermasterlistitem}" z="bCvO58qdMUSYgF2EUUBJah6BG9A="/>
+        <field:display calendar="true" dateTimePattern="${providermasterlistitem_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_lastmodifieddate" object="${providermasterlistitem}" z="EBNoxl7cZX7Z5QtDfijEsil7kWw="/>
+        <field:display calendar="true" dateTimePattern="${providermasterlistitem_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_createddate" object="${providermasterlistitem}" z="XUhaHneO70PCSbSE28pJs0w1xbg="/>
+        <field:display field="listtermoverride" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_listtermoverride" object="${providermasterlistitem}" z="A8xEH15tTNcg+0JPV0vNeN2jni4="/>
+        <field:display field="isexclusive" id="s_com_elsevier_tsconfig_domain_Providermasterlistitem_isexclusive" object="${providermasterlistitem}" z="/FxgUel+zX+/FnRMOjihD1lqONs="/>
+    </page:show>
+</div>

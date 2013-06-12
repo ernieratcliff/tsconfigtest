@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Providermasterlistitem" items="${providermasterlistitems}" z="SvpN/aPUWn3BicAjLrEDeZtefwc=">
+        <table:table data="${providermasterlistitems}" id="l_com_elsevier_tsconfig_domain_Providermasterlistitem" path="/providermasterlistitems" z="uScUsWAV0385OPkKEwKuyVFCi0I=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_itemtype" property="itemtype" z="9nmp2+ZlJFkxMF93OtojP5CF05A="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_providerobjectid" property="providerobjectid" z="f3jOhmKvrjfRTioNnK1suG8+Nx8="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_providerid" property="providerid" z="7CyOTAGfxfvmPE5LI5Qvi/Gsb2k="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_masterlistconceptguid" property="masterlistconceptguid" z="VwaLshrhEUOLWHt4+iovdvzKzpY="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_masteritemconceptguid" property="masteritemconceptguid" z="CJs4UyuJHw7QdkhTIrYb+aQiIoI="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_sequence" property="sequence" z="cot7bR23Ccl6MSbxfZToLYpKKgA="/>
+        </table:table>
+    </page:list>
+</div>

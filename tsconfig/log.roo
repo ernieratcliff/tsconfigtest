@@ -1,0 +1,82 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-23 10:09:57
+project --topLevelPackage com.elsevier.tsconfig --projectName tsconfig --java 7 --packaging JAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-23 10:10:05
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-23 10:10:31
+hint
+jpa setup --provider HIBERNATE --database ORACLE --hostName ordersets-hli-dev-db-01.ec2-els.com --userName TS_CLIENT --password welcome --databaseName ORCL
+// [failed] database introspect --schema orcl
+addon search --requiresDescription "#jdbcdriver,driverclass:oracle.jdbc.OracleDriver"
+// [failed] addon create wrapper --topLevelPackage com.oracle.roo.JDBC --groupId com.oracle --artifactId ojdbc6 --version 11.2.0.3 --vendorName Oracle --licenseUrl http://www.oracle.com
+// [failed] addon create wrapper --topLevelPackage com.oracle.roo.JDBC --groupId com.oracle --artifactId ojdbc6 --version 11.2.0.3 --vendorName Oracle --licenseUrl http://www.oracle.com
+osgi install --url file:///C:\devtools\springsource\spring-roo-1.2.3.RELEASE\bin\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+jpa setup --provider HIBERNATE --database ORACLE --hostName ordersets-hli-dev-db-01.ec2-els.com --userName TS_CLIENT --password welcome --databaseName ORCL
+dependency remove --groupId com.oracle --artifactId ojdbc14 --version 10.2.0.2
+dependency add --groupId com.oracle --artifactId ojdbc6 --version 11.2.0.3
+dependency remove --groupId com.oracle --artifactId ojdbc14 --version 10.2.0.2
+dependency add --groupId com.oracle --artifactId ojdbc6 --version 11.2.0.3
+// [failed] database introspect --schema orcl
+// [failed] perform command --mavenCommand bundle:bundle
+osgi install --url file:///C:\devtools\oracleosgi\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+// [failed] database reverse engineer --schema orcl --package ~.domain
+// [failed] database reverse engineer --schema orcl --package ~.domain
+version
+osgi version 
+osgi log 
+osgi uninstall --bundleSymbolicName com.oracle.roo.jdbc.ojdbc6
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+q
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-23 16:49:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-23 16:50:16
+// [failed] database introspect --schema orcl
+osgi log 
+osgi find --bundleSymbolicName *oracle*
+osgi find --bundleSymbolicName oracle
+osgi find --bundleSymbolicName *
+// [failed] database introspect --schema orcl
+osgi uninstall --bundleSymbolicName com.oracle.roo.jdbc.ojdbc6
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+osgi log 
+osgi uninstall --bundleSymbolicName com.oracle.roo.jdbc.ojdbc6
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+osgi log 
+osgi uninstall --bundleSymbolicName com.oracle.roo.jdbc.ojdbc6
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+osgi log 
+// [failed] database introspect --schema orcl
+osgi log 
+osgi uninstall --bundleSymbolicName com.oracle.roo.jdbc.ojdbc6
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+osgi log 
+osgi uninstall --bundleSymbolicName com.oracle.roo.jdbc.ojdbc6
+osgi install --url file:///C:\devtools\oracleosgi\target\com.oracle.roo.jdbc.ojdbc6-11.2.0.3.0001.jar
+// [failed] database introspect --schema orcl
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-24 05:00:50
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-24 08:50:53
+// [failed] database introspect --schema orcl
+// [failed] database introspect --schema TS_CLIENT
+// [failed] database reverse engineer --schema TS_CLIENT --package ~.domain
+database introspect --schema TS_CLIENT
+database reverse engineer --schema TS_CLIENT --package ~.domain
+controller all --package ~.web
+logging setup --level INFO --package ALL_SPRING
+logging setup --level INFO --package ALL_SPRING
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-28 07:50:08
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-30 08:28:50
+jpa setup --provider ECLIPSELINK --database ORACLE --hostName ordersets-hli-dev-db-01.ec2-els.com --userName TS_CLIENT --password welcome --databaseName TS_CLIENT 
+// [failed] database introspect --schema TS_CLIENT
+// [failed] database introspect --schema TS_CLIENT
+database introspect --schema TS_CLIENT
+database reverse engineer --schema TS_CLIENT --package ~.domain --excludeTables "RXN*"
+controller all --package ~.web
+controller all --package ~.web
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-31 05:00:42
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-06-11 15:38:48
+controller all --package ~.web

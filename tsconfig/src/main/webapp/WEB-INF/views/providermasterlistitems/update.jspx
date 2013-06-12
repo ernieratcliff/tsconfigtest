@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_elsevier_tsconfig_domain_Providermasterlistitem" modelAttribute="providermasterlistitem" path="/providermasterlistitems" versionField="none" z="m4ilLES4JmB5dSdIvnW7sFPDPpo=">
+        <field:select field="itemtype" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_itemtype" itemValue="id" items="${providercataloglkprefs}" path="/providercataloglkprefs" z="TzGeXKjL2dAIrqsz6UQeutC62M8="/>
+        <field:select field="providerobjectid" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_providerobjectid" itemValue="id" items="${providerobjects}" path="/providerobjects" z="mUr36XetvFMA8XeD4bvgPE3z0C4="/>
+        <field:input field="providerid" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_providerid" required="true" z="vXUytD+4hpDD3RejFL7Y9lerzOY="/>
+        <field:input field="masterlistconceptguid" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_masterlistconceptguid" required="true" z="C2NztK89kfxS4EbTAWeTFM8W52A="/>
+        <field:input field="masteritemconceptguid" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_masteritemconceptguid" z="q+BzBbkA4Jxm5Ht4jzTXaileLx8="/>
+        <field:input field="sequence" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_sequence" required="true" validationMessageCode="field_invalid_number" z="RRlucZb/sbb1vTdOP236WhexPDA="/>
+        <field:input field="iteminuse" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_iteminuse" required="true" validationMessageCode="field_invalid_number" z="7+DAOxF0ZJ/2CcrZDOsU9x+bkiw="/>
+        <field:input field="note" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_note" z="Qwo8gwI84qsnyWbvS3qLd3bu/Gk="/>
+        <field:input field="lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_lastmodifieduser" z="wTrIo+iW+al2LlY60mFg8wEUCVA="/>
+        <field:datetime dateTimePattern="${providermasterlistitem_lastmodifieddate_date_format}" field="lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_lastmodifieddate" z="bpsSU3hB2uzIVhiabifnjBi7GX0="/>
+        <field:datetime dateTimePattern="${providermasterlistitem_createddate_date_format}" field="createddate" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_createddate" z="e0h3gmWY0wtEWvA334JH+Z/77kM="/>
+        <field:input field="listtermoverride" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_listtermoverride" z="MTBgTIkuCLFq8K3HevUQrp3w2Cg="/>
+        <field:input field="isexclusive" id="c_com_elsevier_tsconfig_domain_Providermasterlistitem_isexclusive" validationMessageCode="field_invalid_number" z="0VYrJE6hoBR9/FsRaKr7Zma5aPo="/>
+    </form:update>
+</div>

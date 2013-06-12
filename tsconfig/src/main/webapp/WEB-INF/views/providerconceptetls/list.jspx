@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_ProviderconceptEtl" items="${providerconceptetls}" z="P0M5i+eoUzbViUI3DsQsMXQt5Y4=">
+        <table:table data="${providerconceptetls}" id="l_com_elsevier_tsconfig_domain_ProviderconceptEtl" path="/providerconceptetls" z="w6kmm8KQyqLe36z0I0I+X3cR0Ew=">
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderconceptEtl_typeid" property="typeid" z="Vljt6OTsqiDg3E9XxgOPjmgsh3w="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderconceptEtl_providerid" property="providerid" z="kxPdxNRjlDzbN+1O3XlHV33Aul4="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderconceptEtl_concept" property="concept" z="9nrxnxv5mFPm5wQ0le3JmJ5Q8/c="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderconceptEtl_conceptdesc" property="conceptdesc" z="i4kRzwSzVuqX91tji5n8Wr2iu4A="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderconceptEtl_concepttype" property="concepttype" z="0MMx3FHkL6Ne+jgR6RfIVC29848="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderconceptEtl_concepttypeid" property="concepttypeid" z="8yGPfFk1rPUrGUoOrkrfj1mHmFQ="/>
+        </table:table>
+    </page:list>
+</div>

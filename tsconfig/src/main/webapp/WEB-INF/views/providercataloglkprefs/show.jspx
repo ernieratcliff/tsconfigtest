@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providercataloglkpref" object="${providercataloglkpref}" path="/providercataloglkprefs" z="FomZZjaM1DhZp/YQTxqzXZTUPZM=">
+        <field:display field="description" id="s_com_elsevier_tsconfig_domain_Providercataloglkpref_description" object="${providercataloglkpref}" z="sYYUfQUhV2vqrUQnEhYOEssWy+U="/>
+        <field:display field="reftype" id="s_com_elsevier_tsconfig_domain_Providercataloglkpref_reftype" object="${providercataloglkpref}" z="9zB+F27B/c535kPPED1Iftcd+C8="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providercataloglkpref_lastmodifieduser" object="${providercataloglkpref}" z="g6fQkvT4Hg0lzgQAqPpl0pGOpRQ="/>
+        <field:display calendar="true" dateTimePattern="${providercataloglkpref_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providercataloglkpref_lastmodifieddate" object="${providercataloglkpref}" z="migN2cwM3udF0BVNied3J2/WWH0="/>
+        <field:display calendar="true" dateTimePattern="${providercataloglkpref_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Providercataloglkpref_createddate" object="${providercataloglkpref}" z="eJifBGDXz7bkcMxVn5UCjuIb2Q4="/>
+        <field:display field="note" id="s_com_elsevier_tsconfig_domain_Providercataloglkpref_note" object="${providercataloglkpref}" z="W1zfildwXJKPPswayFaYLydp6eU="/>
+    </page:show>
+</div>

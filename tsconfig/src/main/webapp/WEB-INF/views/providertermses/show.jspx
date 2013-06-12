@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providerterms" object="${providerterms}" path="/providertermses" z="TritQSdWb5QeJCtfrxNBh0h0bN4=">
+        <field:display field="conceptid" id="s_com_elsevier_tsconfig_domain_Providerterms_conceptid" object="${providerterms}" z="inyZfWnqybqqR8IMV/RsJj/xK28="/>
+        <field:display field="isdefault" id="s_com_elsevier_tsconfig_domain_Providerterms_isdefault" object="${providerterms}" z="fyJXG/Rd6sFu1asb5ZUP4+wAM68="/>
+        <field:display field="value" id="s_com_elsevier_tsconfig_domain_Providerterms_value" object="${providerterms}" z="OxZD/y1I+tDzHda8cOTsMrRq8ew="/>
+    </page:show>
+</div>

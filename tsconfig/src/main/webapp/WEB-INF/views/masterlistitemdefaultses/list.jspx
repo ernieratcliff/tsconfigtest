@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Masterlistitemdefaults" items="${masterlistitemdefaultses}" z="H/c5ahe80QadGiyAYX+mnskHJMI=">
+        <table:table data="${masterlistitemdefaultses}" id="l_com_elsevier_tsconfig_domain_Masterlistitemdefaults" path="/masterlistitemdefaultses" z="ZnmFuQsLzaOMe0AkdqC8eUTxcu4=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_masterlistconceptguid" property="masterlistconceptguid" z="XRRNMw9cSffvPzjum+l2/ezu5io="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_masteritemconceptguid" property="masteritemconceptguid" z="cLour7T4SIcVBI58F7qMkWXpVjo="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_iteminuse" property="iteminuse" z="hlL4Gi4P06arg9auvoGwFBmIMmI="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_isexclusive" property="isexclusive" z="z3dyOPL0+aFPvVUDjuPZwu2hrSs="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_listtermoverride" property="listtermoverride" z="DiXSgi3HJA42w+JsgYukGCbzHcI="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_lastmodifieduser" property="lastmodifieduser" z="H9cvym+OAsagB3KwZHuyIeCGo1A="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providerrelation" object="${providerrelation}" path="/providerrelations" z="btO++g70JdkYwxtbQoAZu7M/YLA=">
+        <field:display field="providerobject2" id="s_com_elsevier_tsconfig_domain_Providerrelation_providerobject2" object="${providerrelation}" z="YlHYhfO0Nc++SWPMFG/JT2wwO2o="/>
+        <field:display field="relationtypeid" id="s_com_elsevier_tsconfig_domain_Providerrelation_relationtypeid" object="${providerrelation}" z="SBrHVvTDMH/AMI77aiUR2ujaKWw="/>
+        <field:display field="sourceid" id="s_com_elsevier_tsconfig_domain_Providerrelation_sourceid" object="${providerrelation}" z="1xX7rHnK6BP9qzaVhk7AKTg5r4A="/>
+        <field:display field="targetid" id="s_com_elsevier_tsconfig_domain_Providerrelation_targetid" object="${providerrelation}" z="BFtImIQDwAomgPiJtjQ8SuQEkaE="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providerrelation_lastmodifieduser" object="${providerrelation}" z="q6EEJpgrOv/cgRucm6bRvwWy2kI="/>
+        <field:display calendar="true" dateTimePattern="${providerrelation_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providerrelation_lastmodifieddate" object="${providerrelation}" z="+pNU6CNo1xo1kl0ivJ9eQdt6wBs="/>
+        <field:display calendar="true" dateTimePattern="${providerrelation_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Providerrelation_createddate" object="${providerrelation}" z="igmtlq49hMiCQ32ost2vmWOErK0="/>
+        <field:display field="sequence" id="s_com_elsevier_tsconfig_domain_Providerrelation_sequence" object="${providerrelation}" z="KdW+6VyYoAZRac3gD5ERartxGaE="/>
+    </page:show>
+</div>

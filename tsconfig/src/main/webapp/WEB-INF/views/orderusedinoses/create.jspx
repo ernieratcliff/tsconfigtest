@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_com_elsevier_tsconfig_domain_Orderusedinos" modelAttribute="orderusedinos" path="/orderusedinoses" render="${empty dependencies}" z="ursVvKErkD2ltqoBbT8fgg/VVmY=">
+        <field:input disableFormBinding="true" field="id.objectid" id="c_com_elsevier_tsconfig_domain_Orderusedinos_id_objectid" required="true" validationMessageCode="field_invalid_number" z="S+Mz6/mThabdM4oAVT0yJxHxmjQ="/>
+        <field:input disableFormBinding="true" field="id.name" id="c_com_elsevier_tsconfig_domain_Orderusedinos_id_name" required="true" z="JR2s4AtqOUMY8+oyNLJJQzJTv+c="/>
+        <field:input disableFormBinding="true" field="id.lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Orderusedinos_id_lastmodifieduser" required="true" z="Bo16YN6/3PaLoHTBUgsKGeNYwNI="/>
+        <field:datetime dateTimePattern="${orderusedinos_id.lastmodifieddate_date_format}" disableFormBinding="true" field="id.lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Orderusedinos_id_lastmodifieddate" required="true" z="B3XVqjRwUYdz99C+llDQC8emRIE="/>
+        <field:datetime dateTimePattern="${orderusedinos_id.createddate_date_format}" disableFormBinding="true" field="id.createddate" id="c_com_elsevier_tsconfig_domain_Orderusedinos_id_createddate" required="true" z="64KxkZCBDdeeQpZjeGcGMUvcNO0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_elsevier_tsconfig_domain_Orderusedinos" render="${not empty dependencies}" z="6J0osg5ciQJta2BepbbzBqDYQ84="/>
+</div>

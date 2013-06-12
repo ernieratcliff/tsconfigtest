@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providerobject" object="${providerobject}" path="/providerobjects" z="YPrfCDlJqK6nWMRcyD3LkC94dI4=">
+        <field:display field="providerconcept" id="s_com_elsevier_tsconfig_domain_Providerobject_providerconcept" object="${providerobject}" z="uLXjOJ4iTgtRgUdVepkEE6+8HYg="/>
+        <field:display field="providerrelation1" id="s_com_elsevier_tsconfig_domain_Providerobject_providerrelation1" object="${providerobject}" z="szydDU00GSj1cyscuE37LvY4qy8="/>
+        <field:display field="providerid" id="s_com_elsevier_tsconfig_domain_Providerobject_providerid" object="${providerobject}" z="V2fn7qwdXpqw1lXC0f4OgHkBjYM="/>
+        <field:display field="typeid" id="s_com_elsevier_tsconfig_domain_Providerobject_typeid" object="${providerobject}" z="nbxOOd7JJ4xiFS277reyLor9LbM="/>
+        <field:display field="mappingstatusid" id="s_com_elsevier_tsconfig_domain_Providerobject_mappingstatusid" object="${providerobject}" z="s+e8whPuK9FPiqASsMt/TUC8T4o="/>
+        <field:display field="masterobjectguid" id="s_com_elsevier_tsconfig_domain_Providerobject_masterobjectguid" object="${providerobject}" z="U84P+IEIcQizqDtGbBLCHC+2fo4="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providerobject_lastmodifieduser" object="${providerobject}" z="nLnNZiWkZr5/Y/cr4+yYtvRMaFA="/>
+        <field:display calendar="true" dateTimePattern="${providerobject_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providerobject_lastmodifieddate" object="${providerobject}" z="OvFyX/yBDOiJLlc9pyfqExZIL4Y="/>
+        <field:display calendar="true" dateTimePattern="${providerobject_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Providerobject_createddate" object="${providerobject}" z="6aCPW4h3M6FeFXk3SXwejB3orYg="/>
+        <field:display field="providerguid" id="s_com_elsevier_tsconfig_domain_Providerobject_providerguid" object="${providerobject}" z="GzTXrAighyC9ANgzKJ3DvgGBQR0="/>
+        <field:display field="ignore" id="s_com_elsevier_tsconfig_domain_Providerobject_ignore" object="${providerobject}" z="LIlCSvFzbJ2aoA145jjF7DPM/0s="/>
+    </page:show>
+</div>

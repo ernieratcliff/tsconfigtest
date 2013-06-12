@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_ProviderrelationEtl" object="${providerrelationetl}" path="/providerrelationetls" z="fFRce12MBvDOpckId0ugi9B7rRw=">
+        <field:display field="typeid" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_typeid" object="${providerrelationetl}" z="kf5VEoI0bPoPI42xolNUpzZPzYw="/>
+        <field:display field="relationtypeid" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_relationtypeid" object="${providerrelationetl}" z="Vr6Ldx37ytX+KZuzbZ9ebhYbgHM="/>
+        <field:display field="sourceid" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_sourceid" object="${providerrelationetl}" z="fvDknUuv7ysHce4xMk00MCPlsRM="/>
+        <field:display field="targetid" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_targetid" object="${providerrelationetl}" z="ohWhKYF2bNGVwWMKc2hC3CQMZ7w="/>
+        <field:display field="relationtype" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_relationtype" object="${providerrelationetl}" z="wGOUP5dl2hjkk5aULBPFgWLjJzE="/>
+        <field:display field="sourcetext" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_sourcetext" object="${providerrelationetl}" z="+VrCbRwCPo5MXiu03QTMMvj+Jeg="/>
+        <field:display field="targettext" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_targettext" object="${providerrelationetl}" z="0Q+8WZXIzbtzVpgKH2JLdAI8v08="/>
+        <field:display field="sequence" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_sequence" object="${providerrelationetl}" z="JxsHMHssLV7ggGD7Oo1esIYtOWM="/>
+        <field:display field="providerid" id="s_com_elsevier_tsconfig_domain_ProviderrelationEtl_providerid" object="${providerrelationetl}" z="uADHLdKdMt3MhL9ELNqXiNswphw="/>
+    </page:show>
+</div>

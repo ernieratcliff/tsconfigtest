@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Providerterms" items="${providertermses}" z="nc1lO2VsPs/BWn8l1rrf2jF5Oso=">
+        <table:table data="${providertermses}" id="l_com_elsevier_tsconfig_domain_Providerterms" path="/providertermses" typeIdFieldName="termid" z="VvfBIJ6PlbCzG1ohDABlBObGXMM=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerterms_conceptid" property="conceptid" z="C7X3yKsODskHHyr03gKYct1S15U="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerterms_isdefault" property="isdefault" z="JvIBY9k1wcrAfkPLJdfP25bp/9c="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerterms_value" property="value" z="Zum2t6GPyJp312rFXFplk5tMp3w="/>
+        </table:table>
+    </page:list>
+</div>

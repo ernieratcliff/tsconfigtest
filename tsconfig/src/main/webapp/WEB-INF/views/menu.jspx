@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_providercataloglkpref" z="mC5m+ZMUjKfwzCjnAPeP8LSoSNQ=">
+            <menu:item id="i_providercataloglkpref_new" messageCode="global_menu_new" url="/providercataloglkprefs?form" z="At9ND6aPHk+g2qtZWrc7YG4YNlU="/>
+            <menu:item id="i_providercataloglkpref_list" messageCode="global_menu_list" url="/providercataloglkprefs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="2MkveTgevMSE4S5XG/2v3WiucKM="/>
+        </menu:category>
+        <menu:category id="c_providerrelation" z="l3WgXDgiR8qf/kUlVm6PCGQob58=">
+            <menu:item id="i_providerrelation_new" messageCode="global_menu_new" url="/providerrelations?form" z="WYm70U9l0+mDH1HZxF6dChvfbxo="/>
+            <menu:item id="i_providerrelation_list" messageCode="global_menu_list" url="/providerrelations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="D6g9RDML1MCcoPBPBKvsm6twulY="/>
+        </menu:category>
+        <menu:category id="c_masterlistitemdefaults" z="nXdyzTiV11DvmDZxy0EpW/cvzQw=">
+            <menu:item id="i_masterlistitemdefaults_new" messageCode="global_menu_new" url="/masterlistitemdefaultses?form" z="9GK67vE4g3hNYn1EwoUL5h/N4ks="/>
+            <menu:item id="i_masterlistitemdefaults_list" messageCode="global_menu_list" url="/masterlistitemdefaultses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="St+LAIPIWMkZfNM5Xu5xo6I+oWw="/>
+        </menu:category>
+        <menu:category id="c_providerlistitemfacet" z="+D9SttpL6fATQVPdcYjPUxK6ATM=">
+            <menu:item id="i_providerlistitemfacet_new" messageCode="global_menu_new" url="/providerlistitemfacets?form" z="8b3+xw3eco32GS2m20VeYlVdljM="/>
+            <menu:item id="i_providerlistitemfacet_list" messageCode="global_menu_list" url="/providerlistitemfacets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KQH+vKSFR/Tux1KHvqUZQsycdX4="/>
+        </menu:category>
+        <menu:category id="c_providerconcept" z="35LMOm2m11VBdNq+zf+1lRUx/L0=">
+            <menu:item id="i_providerconcept_new" messageCode="global_menu_new" url="/providerconcepts?form" z="3ZNbBNqB3Ugai6URdxc8CQijBo8="/>
+            <menu:item id="i_providerconcept_list" messageCode="global_menu_list" url="/providerconcepts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RdXLegPD3w63geJu1ddrJFG5Ips="/>
+        </menu:category>
+        <menu:category id="c_providerterms" z="dCZK0t/XIZfCntoxM10dHalM6nA=">
+            <menu:item id="i_providerterms_new" messageCode="global_menu_new" url="/providertermses?form" z="PuFglYhzmSZGiQijdzKYDO9KSJA="/>
+            <menu:item id="i_providerterms_list" messageCode="global_menu_list" url="/providertermses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="gyj//+Q/RBRgoMuj863aHT3Y1jA="/>
+        </menu:category>
+        <menu:category id="c_providerconceptetl" z="Ml5RrTtFCUjufQI+2LQygUOiPFI=">
+            <menu:item id="i_providerconceptetl_new" messageCode="global_menu_new" url="/providerconceptetls?form" z="iet22weO8irOuW1ECg4PPjF4ItM="/>
+            <menu:item id="i_providerconceptetl_list" messageCode="global_menu_list" url="/providerconceptetls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VGecFu/DJ/eBujCmcx+YeFOWeBY="/>
+        </menu:category>
+        <menu:category id="c_providerobject" z="aTbgIYsOMMGNEcApOKxzugxt2EE=">
+            <menu:item id="i_providerobject_new" messageCode="global_menu_new" url="/providerobjects?form" z="C/qq7ynZXtq4SVnJvBAn+X522rk="/>
+            <menu:item id="i_providerobject_list" messageCode="global_menu_list" url="/providerobjects?page=1&amp;size=${empty param.size ? 10 : param.size}" z="LEmhI2uzHKxE8ca6MWENtNxVo/8="/>
+        </menu:category>
+        <menu:category id="c_providermasterfacetoverride" z="KfvxVTCroEBUxcuym4LPhFQDpEY=">
+            <menu:item id="i_providermasterfacetoverride_new" messageCode="global_menu_new" url="/providermasterfacetoverrides?form" z="YfrpFW7yd5VzoBbCdWQRGmXNvGA="/>
+            <menu:item id="i_providermasterfacetoverride_list" messageCode="global_menu_list" url="/providermasterfacetoverrides?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CMfvIcXByMbi0RCBqrVnPk5OjOU="/>
+        </menu:category>
+        <menu:category id="c_orderusedinos" z="jaT0YsU4OYrDBd3x34VbQLZLicc=">
+            <menu:item id="i_orderusedinos_new" messageCode="global_menu_new" url="/orderusedinoses?form" z="dVQfOMVdd4eh+xWN6qaSFO4GrDA="/>
+            <menu:item id="i_orderusedinos_list" messageCode="global_menu_list" url="/orderusedinoses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MzpzsBLOg/Bak4KF3Md7l8q4v10="/>
+        </menu:category>
+        <menu:category id="c_providerrelationetl" z="OyXHOeiMj4vnbtyqRGWsonNL/Zg=">
+            <menu:item id="i_providerrelationetl_new" messageCode="global_menu_new" url="/providerrelationetls?form" z="+rqvroxT0FpMKHg67n8c+iQyfag="/>
+            <menu:item id="i_providerrelationetl_list" messageCode="global_menu_list" url="/providerrelationetls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="JzTnnopz2tWV5Wi5RXnew9HNKMI="/>
+        </menu:category>
+        <menu:category id="c_provider" z="qZ+nkmjhdayV87fGbEw2hhp0V4o=">
+            <menu:item id="i_provider_new" messageCode="global_menu_new" url="/providers?form" z="5ew3C+GxwHBke11UPa8brbXBs9U="/>
+            <menu:item id="i_provider_list" messageCode="global_menu_list" url="/providers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="TgJi++6a7c4vQ15mFdswicVulK0="/>
+        </menu:category>
+        <menu:category id="c_globalconfigsessiontable" z="aLSgRZVWgVR+0WJjA4koqvGK4Ok=">
+            <menu:item id="i_globalconfigsessiontable_new" messageCode="global_menu_new" url="/globalconfigsessiontables?form" z="IersWF0nDkEr1T41LFbvlJhEuhk="/>
+            <menu:item id="i_globalconfigsessiontable_list" messageCode="global_menu_list" url="/globalconfigsessiontables?page=1&amp;size=${empty param.size ? 10 : param.size}" z="m5EYfF8SPoB3Id0m5UuSeDoYWQE="/>
+        </menu:category>
+        <menu:category id="c_providerobjectfacetetl" z="duQUqJZkGFaNiTNF1GSjwXXpLhI=">
+            <menu:item id="i_providerobjectfacetetl_new" messageCode="global_menu_new" url="/providerobjectfacetetls?form" z="DLKt6Lp/acHErYAWbQpNeZ9v3cU="/>
+            <menu:item id="i_providerobjectfacetetl_list" messageCode="global_menu_list" url="/providerobjectfacetetls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="i+KwiXiMsFX3Uphl6PEmLXeSLko="/>
+        </menu:category>
+        <menu:category id="c_providerobjectfacet" z="e1eNUKz9y7OkEdlGXwHusSJiICk=">
+            <menu:item id="i_providerobjectfacet_new" messageCode="global_menu_new" url="/providerobjectfacets?form" z="WJVp8NDKdm46jxa9JZMJir7psIc="/>
+            <menu:item id="i_providerobjectfacet_list" messageCode="global_menu_list" url="/providerobjectfacets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8Pwj4El1U7uSl/omqrQ3XWTeqFM="/>
+        </menu:category>
+        <menu:category id="c_providermasterlistitem" z="eLhHGBa8j7JomWVNyIIIYDngDvM=">
+            <menu:item id="i_providermasterlistitem_new" messageCode="global_menu_new" url="/providermasterlistitems?form" z="CK1cJWzjN8QiC8dguewOG7J363g="/>
+            <menu:item id="i_providermasterlistitem_list" messageCode="global_menu_list" url="/providermasterlistitems?page=1&amp;size=${empty param.size ? 10 : param.size}" z="86Gb7pWFK6x+rjUNibTmI8sm7Ew="/>
+        </menu:category>
+        <menu:category id="c_providerlistitem" z="pk+t1ACJHS54vcE5SJNSS5zH+UU=">
+            <menu:item id="i_providerlistitem_new" messageCode="global_menu_new" url="/providerlistitems?form" z="jmDsNMY7pIaVQTOtCWwQGeLLLik="/>
+            <menu:item id="i_providerlistitem_list" messageCode="global_menu_list" url="/providerlistitems?page=1&amp;size=${empty param.size ? 10 : param.size}" z="uiaDmbhC8UxZ3F03ZFdFcDJf7oY="/>
+        </menu:category>
+    </menu:menu>
+</div>

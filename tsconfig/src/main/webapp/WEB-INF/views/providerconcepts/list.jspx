@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Providerconcept" items="${providerconcepts}" z="NJe0aa/9pVmtatqwv4skem2u8QQ=">
+        <table:table data="${providerconcepts}" id="l_com_elsevier_tsconfig_domain_Providerconcept" path="/providerconcepts" typeIdFieldName="objectid" z="g7Nw0MjOaXEoe8+0xPax3MaAHoQ=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerconcept_providerobject" property="providerobject" z="CGc2KeCujcc+Dt1BNQ15YhFyvDk="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerconcept_typeid" property="typeid" z="11V37tzDJV13co8MVtsTVzesXbA="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerconcept_name" property="name" z="FZwG8iX8s2Rl0F0N5zvk6v3yPxI="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerconcept_mastertermguid" property="mastertermguid" z="mJBgcMgLtpNihVWaadGHnvJ2kjQ="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providerconcept_providercatalogkey" property="providercatalogkey" z="WsDhqmYhCcSl790OcSJ3e0RtaBA="/>
+        </table:table>
+    </page:list>
+</div>

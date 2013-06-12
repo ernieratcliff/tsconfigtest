@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_ProviderrelationEtl" items="${providerrelationetls}" z="z9qU/L/5oqwOy5F8K/ahA3QRO3g=">
+        <table:table data="${providerrelationetls}" id="l_com_elsevier_tsconfig_domain_ProviderrelationEtl" path="/providerrelationetls" z="SguNoQADuNWUgfaU+UzQiPSIrZ8=">
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderrelationEtl_typeid" property="typeid" z="w9DgjFdkaKeBgXn1QkKx9sASGvA="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderrelationEtl_relationtypeid" property="relationtypeid" z="1mvy7pk2gXPoR2CET3ZRUbvUpOo="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderrelationEtl_sourceid" property="sourceid" z="P01w0jIeaL0AFemdZfR2hg7xX1U="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderrelationEtl_targetid" property="targetid" z="/IyvyTqIMu69TbKYbUJ+EIjnDK4="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderrelationEtl_relationtype" property="relationtype" z="YCcVk/UFGvCUetyifAVUSQ3mVfU="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_ProviderrelationEtl_sourcetext" property="sourcetext" z="x28mC5Ry3F05ubE8RpkjA9JwIvE="/>
+        </table:table>
+    </page:list>
+</div>

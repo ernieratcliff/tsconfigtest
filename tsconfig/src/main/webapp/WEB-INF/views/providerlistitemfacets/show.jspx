@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providerlistitemfacet" object="${providerlistitemfacet}" path="/providerlistitemfacets" z="5LdDuPX7crOiXyBEikcMuXWt07w=">
+        <field:display field="facetdefinitionid" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_facetdefinitionid" object="${providerlistitemfacet}" z="EWBNJjlGEVhHWLbuAhvk/BLEob4="/>
+        <field:display field="providerlistitemid" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_providerlistitemid" object="${providerlistitemfacet}" z="J/oQSa3d5+5peNwomBDk2BSPvuU="/>
+        <field:display field="value" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_value" object="${providerlistitemfacet}" z="+Zsk+QwVrQRNV+/80o46XAEryf4="/>
+        <field:display field="isdefault" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_isdefault" object="${providerlistitemfacet}" z="L7thZVQZxkpQD9yOxgFEO/Cedzk="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_lastmodifieduser" object="${providerlistitemfacet}" z="pW6ajqsFqKQb/D8m5mq4vSwU2gI="/>
+        <field:display calendar="true" dateTimePattern="${providerlistitemfacet_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_lastmodifieddate" object="${providerlistitemfacet}" z="w3VqvybK2KYN3b07LmISOXj2dmk="/>
+        <field:display calendar="true" dateTimePattern="${providerlistitemfacet_createdate_date_format}" field="createdate" id="s_com_elsevier_tsconfig_domain_Providerlistitemfacet_createdate" object="${providerlistitemfacet}" z="xlf37QyaJSnPFgQbeMK2tdNponI="/>
+    </page:show>
+</div>

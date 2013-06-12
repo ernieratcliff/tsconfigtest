@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Provider" items="${providers}" z="ow37lam7Zd25gYQb+BQuq7CQ0cU=">
+        <table:table data="${providers}" id="l_com_elsevier_tsconfig_domain_Provider" path="/providers" z="HRXzC9m+n+CeqAExZ9Tn3Bredq0=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Provider_description" property="description" z="pqGS0+/k9vi8PcutycRDkzguevo="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Provider_lastmodifieduser" property="lastmodifieduser" z="eN3lbhdSXq55g7tHERUTvI+Jwao="/>
+            <table:column calendar="true" dateTimePattern="${provider_lastmodifieddate_date_format}" id="c_com_elsevier_tsconfig_domain_Provider_lastmodifieddate" property="lastmodifieddate" z="ljXjXvwz8uDDSXiEChiX9BmcNYY="/>
+            <table:column calendar="true" dateTimePattern="${provider_createddate_date_format}" id="c_com_elsevier_tsconfig_domain_Provider_createddate" property="createddate" z="LdFhOsliH5cV7jS3YW+xaBaBnmA="/>
+        </table:table>
+    </page:list>
+</div>

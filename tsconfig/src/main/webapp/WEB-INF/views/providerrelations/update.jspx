@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_elsevier_tsconfig_domain_Providerrelation" idField="objectid" modelAttribute="providerrelation" path="/providerrelations" versionField="none" z="8O1nANH86mO3E0k8A3Oh9aJIlE4=">
+        <field:select field="providerobject2" id="c_com_elsevier_tsconfig_domain_Providerrelation_providerobject2" itemValue="id" items="${providerobjects}" path="/providerobjects" z="7Rig4YEvIhlaOH3HFMizyVxEqR4="/>
+        <field:select field="relationtypeid" id="c_com_elsevier_tsconfig_domain_Providerrelation_relationtypeid" itemValue="id" items="${providercataloglkprefs}" path="/providercataloglkprefs" z="zNJf5womOOWGPFnrEcajCqC7cZs="/>
+        <field:select field="sourceid" id="c_com_elsevier_tsconfig_domain_Providerrelation_sourceid" itemValue="id" items="${providerobjects}" path="/providerobjects" z="jz8dLiVTQtY+S4+pyuApC9gK4pg="/>
+        <field:select field="targetid" id="c_com_elsevier_tsconfig_domain_Providerrelation_targetid" itemValue="id" items="${providerobjects}" path="/providerobjects" z="vLK/TleezHDG3Sry78iTUz2vP/w="/>
+        <field:input field="lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Providerrelation_lastmodifieduser" z="dDeb2pwx0lyqPPTIYL59/W7iBfs="/>
+        <field:datetime dateTimePattern="${providerrelation_lastmodifieddate_date_format}" field="lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Providerrelation_lastmodifieddate" z="3lBuuwOoV6+mltZvgpoAJHn5hrM="/>
+        <field:datetime dateTimePattern="${providerrelation_createddate_date_format}" field="createddate" id="c_com_elsevier_tsconfig_domain_Providerrelation_createddate" z="xTLa7ZiJjGn7U+98Vbm5i6FfJWo="/>
+        <field:input field="sequence" id="c_com_elsevier_tsconfig_domain_Providerrelation_sequence" validationMessageCode="field_invalid_number" z="wdVb8acvzWkT0j5rueF9arH2XD8="/>
+    </form:update>
+</div>

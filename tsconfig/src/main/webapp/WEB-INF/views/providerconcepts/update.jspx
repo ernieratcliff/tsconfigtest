@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_elsevier_tsconfig_domain_Providerconcept" idField="objectid" modelAttribute="providerconcept" path="/providerconcepts" versionField="none" z="p25BqQBv2XPyk9yla6WdbYGCWEI=">
+        <field:select field="providerobject" id="c_com_elsevier_tsconfig_domain_Providerconcept_providerobject" itemValue="id" items="${providerobjects}" path="/providerobjects" z="Jjc59QBnhplOEsiySFBplawOuJ0="/>
+        <field:simple field="providertermss" id="c_com_elsevier_tsconfig_domain_Providerconcept_providertermss" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerterms" z="sLJ68EzwVaiM3CBE0PratdhV/z8="/>
+        <field:select field="typeid" id="c_com_elsevier_tsconfig_domain_Providerconcept_typeid" itemValue="id" items="${providercataloglkprefs}" path="/providercataloglkprefs" z="QW0zSriPk5303f/nmK1F7foDkqw="/>
+        <field:input field="name" id="c_com_elsevier_tsconfig_domain_Providerconcept_name" required="true" z="srH8A9abWkU9rGj/Fm9QAvKXP8w="/>
+        <field:input field="mastertermguid" id="c_com_elsevier_tsconfig_domain_Providerconcept_mastertermguid" z="WNcECxl27qarf3ScD66HDCLQSPI="/>
+        <field:input field="providercatalogkey" id="c_com_elsevier_tsconfig_domain_Providerconcept_providercatalogkey" z="OacgYf9uhNAisyqvkxUTyFd9RJo="/>
+        <field:input field="description" id="c_com_elsevier_tsconfig_domain_Providerconcept_description" z="xsVnykdQwOk1kN7vyu+kyqqSzjs="/>
+        <field:input field="retired" id="c_com_elsevier_tsconfig_domain_Providerconcept_retired" required="true" validationMessageCode="field_invalid_number" z="xSW632bLRvEY+G+QnPCPDaWiudY="/>
+        <field:input field="lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Providerconcept_lastmodifieduser" z="DwixCFwSyQ+To+opNCByCSqH0EY="/>
+        <field:datetime dateTimePattern="${providerconcept_lastmodifieddate_date_format}" field="lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Providerconcept_lastmodifieddate" z="BgeORlQvcu3M5fes2CXEWR8FFpI="/>
+        <field:datetime dateTimePattern="${providerconcept_createddate_date_format}" field="createddate" id="c_com_elsevier_tsconfig_domain_Providerconcept_createddate" z="AzYax+5r1RET3b4dCWe5IkLXS4Y="/>
+        <field:input field="masterparentconceptguid" id="c_com_elsevier_tsconfig_domain_Providerconcept_masterparentconceptguid" z="Tr2SmPO+7sLtRWV/4a3L4wGTRPU="/>
+        <field:input field="masterconcepttypeguid" id="c_com_elsevier_tsconfig_domain_Providerconcept_masterconcepttypeguid" z="myTquj5KwBLrAwSzhIqcPd608rY="/>
+        <field:input field="mappingcomment" id="c_com_elsevier_tsconfig_domain_Providerconcept_mappingcomment" z="07LNnpsGVvf1DrHovh2AOD1L07M="/>
+        <field:input field="providerid" id="c_com_elsevier_tsconfig_domain_Providerconcept_providerid" z="wiQlY1W2oAd+pXKU/It5PvoK7UE="/>
+    </form:update>
+</div>

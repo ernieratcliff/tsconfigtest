@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_elsevier_tsconfig_domain_Providermasterfacetoverride" items="${providermasterfacetoverrides}" z="bdPPjeV/FSWj8bJt/Rmis5dw8UU=">
+        <table:table data="${providermasterfacetoverrides}" id="l_com_elsevier_tsconfig_domain_Providermasterfacetoverride" path="/providermasterfacetoverrides" z="9bXTt332i1+HyB8nJFMT3WchY0c=">
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterfacetoverride_masterfacetid" property="masterfacetid" z="ag9RG5+isldHGxkZ9NMNgqMOftE="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterfacetoverride_value" property="value" z="EpQxabiwD9Efv19e3/ijde4Vw/Q="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterfacetoverride_providerid" property="providerid" z="JxCcyXLQXkF5PZbGMa9zf07Nius="/>
+            <table:column id="c_com_elsevier_tsconfig_domain_Providermasterfacetoverride_lastmodifieduser" property="lastmodifieduser" z="/glhfDfqfo/K8hLFShHEMBloFsQ="/>
+            <table:column calendar="true" dateTimePattern="${providermasterfacetoverride_lastmodifieddate_date_format}" id="c_com_elsevier_tsconfig_domain_Providermasterfacetoverride_lastmodifieddate" property="lastmodifieddate" z="Uc/+Q+3zECU0Mj+h+BNMksAQfiI="/>
+            <table:column calendar="true" dateTimePattern="${providermasterfacetoverride_createddate_date_format}" id="c_com_elsevier_tsconfig_domain_Providermasterfacetoverride_createddate" property="createddate" z="ajvMeIeUEW4Cl5b+JUXyX4Cd6z4="/>
+        </table:table>
+    </page:list>
+</div>

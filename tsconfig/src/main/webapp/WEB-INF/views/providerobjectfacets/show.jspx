@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_elsevier_tsconfig_domain_Providerobjectfacet" object="${providerobjectfacet}" path="/providerobjectfacets" z="JbpeDPKXNBPgVYtVWJSSzg+mYzE=">
+        <field:display field="facetdefinitionid" id="s_com_elsevier_tsconfig_domain_Providerobjectfacet_facetdefinitionid" object="${providerobjectfacet}" z="7sj/jAhBGQCkNyCQsjWmKiVhrfQ="/>
+        <field:display field="objectid" id="s_com_elsevier_tsconfig_domain_Providerobjectfacet_objectid" object="${providerobjectfacet}" z="K+8Sb2lSmcdaimOO4s83yeqOHDw="/>
+        <field:display field="value" id="s_com_elsevier_tsconfig_domain_Providerobjectfacet_value" object="${providerobjectfacet}" z="zDDNrpdO25vut3FZ6/uJDyLaPvE="/>
+        <field:display field="lastmodifieduser" id="s_com_elsevier_tsconfig_domain_Providerobjectfacet_lastmodifieduser" object="${providerobjectfacet}" z="k5od9eeW42aAQ2GjCG5kIY/5CiI="/>
+        <field:display calendar="true" dateTimePattern="${providerobjectfacet_lastmodifieddate_date_format}" field="lastmodifieddate" id="s_com_elsevier_tsconfig_domain_Providerobjectfacet_lastmodifieddate" object="${providerobjectfacet}" z="xriHbE9e1tYYp9buy06IkLlmkAI="/>
+        <field:display calendar="true" dateTimePattern="${providerobjectfacet_createddate_date_format}" field="createddate" id="s_com_elsevier_tsconfig_domain_Providerobjectfacet_createddate" object="${providerobjectfacet}" z="COdBMpNdz29GQAdKmZoVdNn+Y78="/>
+    </page:show>
+</div>

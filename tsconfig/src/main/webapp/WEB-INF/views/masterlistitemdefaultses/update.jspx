@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_elsevier_tsconfig_domain_Masterlistitemdefaults" modelAttribute="masterlistitemdefaults" path="/masterlistitemdefaultses" versionField="none" z="5qPO8XjaPXQuchJ0iw5qFjYqyUU=">
+        <field:input field="masterlistconceptguid" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_masterlistconceptguid" z="BPo2A8TqoniAguURMaTmgKFjXiE="/>
+        <field:input field="masteritemconceptguid" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_masteritemconceptguid" z="gObOoinrBvyNkUF995Op14c2d6o="/>
+        <field:input field="iteminuse" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_iteminuse" validationMessageCode="field_invalid_number" z="9a/Yq55AhYtqgsl+7kjOR9BabWY="/>
+        <field:input field="isexclusive" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_isexclusive" validationMessageCode="field_invalid_number" z="/9dQjYnwzKVbtsbYPil3aW5JLzA="/>
+        <field:input field="listtermoverride" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_listtermoverride" z="zMQp49UD68TzGj/wEQGWoB58Hjo="/>
+        <field:input field="lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_lastmodifieduser" z="YKh6kvva7Ocn7g642sO7rhRIV9I="/>
+        <field:datetime dateTimePattern="${masterlistitemdefaults_lastmodifieddate_date_format}" field="lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_lastmodifieddate" z="qGqGqEJmKFnqtTfd3fCcR8RJwEI="/>
+        <field:datetime dateTimePattern="${masterlistitemdefaults_createddate_date_format}" field="createddate" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_createddate" z="q6yzt4/9NLvLX5q4Pon0Yjn3WQw="/>
+        <field:input field="sequence" id="c_com_elsevier_tsconfig_domain_Masterlistitemdefaults_sequence" required="true" validationMessageCode="field_invalid_number" z="UecYZzuaNhBCCgKvlpcRJ8UU/Oc="/>
+    </form:update>
+</div>

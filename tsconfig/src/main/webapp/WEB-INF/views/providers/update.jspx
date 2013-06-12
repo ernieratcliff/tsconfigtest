@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_elsevier_tsconfig_domain_Provider" modelAttribute="provider" path="/providers" versionField="none" z="Ap4GfmNKiYLwg+lN848xO7DmbRs=">
+        <field:simple field="providerobjects" id="c_com_elsevier_tsconfig_domain_Provider_providerobjects" messageCode="entity_reference_not_managed" messageCodeAttribute="Providerobject" z="Y0cDPX00mjmpSrM1az4mxHd9oao="/>
+        <field:input field="description" id="c_com_elsevier_tsconfig_domain_Provider_description" z="oysFa2ilIb6CWSAWnNQymD+Z/U8="/>
+        <field:input field="lastmodifieduser" id="c_com_elsevier_tsconfig_domain_Provider_lastmodifieduser" z="F4uBjCcIwze8aePloDM5+o32YKk="/>
+        <field:datetime dateTimePattern="${provider_lastmodifieddate_date_format}" field="lastmodifieddate" id="c_com_elsevier_tsconfig_domain_Provider_lastmodifieddate" z="4G6HDiypK2eV++1ZIK9hvG04OU4="/>
+        <field:datetime dateTimePattern="${provider_createddate_date_format}" field="createddate" id="c_com_elsevier_tsconfig_domain_Provider_createddate" z="8qNXnuUwUI1bFR9jcdMm2fkpu0Q="/>
+    </form:update>
+</div>
